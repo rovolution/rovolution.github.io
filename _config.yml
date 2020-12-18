@@ -1,0 +1,4 @@
+auto: true
+exclude: [README.md, Gemfile, Gemfile.lock]
+permalink: pretty
+destination: docs

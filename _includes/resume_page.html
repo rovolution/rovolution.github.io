@@ -1,0 +1,31 @@
+<div id="resumeSummary" class="content-bubble">
+	<h2>RESUME</h2>
+	<section id="resume">
+	  <section>
+		<div class='resume-name'>Rohit Kalkur</div>
+		<div><strong>Email:</strong> rohit {dot} kalkur {at} gmail {dot} com</div>
+	  </section>
+	  <section>
+	    <h3>Who Am I?</h3>
+	    <p>
+	    	Full-stack software engineer with a passion for creating cool stuff!<br>
+	    	I love working with and learning about cutting-edge technologies, especially in the web/mobile space.<br>
+	    	Currently can be classified as a JavaScript junkie (client and server).<br>
+	    </p>
+	  </section>
+	  <section>
+	    <h3>Work Experience</h3>
+	    {% for job in site.categories.jobs %}
+			{% include work_experience_listing.html %}
+        {% endfor %}
+	  </section>
+	  <section>
+	    <h3>Formal Education</h3>
+	    <div>
+	    	<div><strong>University of Colorado at Boulder:</strong> Boulder, Colorado USA</div>
+	    	<div>Bachelor of Science, Computer Science - May 2011</div>
+	    	<div>Graduated Magna Cum Laude - 3.819 GPA</div>
+	    </div>
+	  </section>
+	</section>
+</div>
