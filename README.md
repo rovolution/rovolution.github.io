@@ -4,7 +4,7 @@ Jekyll site for Rohit Kalkur
 
 ## Local Development Dependencies
 - chruby 
-  - CLI tool for changing to different locally installed versions of Ruby
+  - CLI tool for switching between different locally installed versions of Ruby
   - https://github.com/postmodern/chruby
   - `brew install chruby`
 
